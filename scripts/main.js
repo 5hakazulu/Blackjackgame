@@ -179,7 +179,7 @@ function hitMe(event) {
             playerAceCount += 1;
           }
           let cardImage = document.createElement("img")
-          cardImage.setAttribute("src", "/images/" + newCard.rank + "_of_" + newCard.suit + ".png");
+          cardImage.setAttribute("src", "images/" + newCard.rank + "_of_" + newCard.suit + ".png");
           playerHand.appendChild(cardImage);
           playerCards.push(newCard);
         }
