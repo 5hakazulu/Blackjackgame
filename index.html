@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack</title>
+  
+  <link rel="stylesheet" href="./extras/HereIsOneIPreparedEarlier.css">
+</head>
+
+<body>
+  <div class="message-box" id="messages"></div>
+  <div class="table">
+    <h1 >Blackjack</h1>
+    <h3 id="Title">Press DEAL to start</h3>
+    <div class=" info">
+      <p>Money:</p>
+      <p>500</p>
+      
+    </div>
+    <div class="info">
+      <p>Current Bet: </p>
+      <p>0</p>
+    </div>
+    
+    <div class="player">
+      
+      <label class="player-name">Dealer: <span id="dealer-points" class="points"></span>
+      </label>
+      <p id="dealerscore">0</p>
+      <div id="dealer-hand" class="hand">
+        <!-- Dealer Hand -->
+        <!-- <img src="images/ace_of_spades.png" alt="">
+        <img src="images/6_of_spades.png" alt=""> -->
+      </div>
+    </div>
+    <div class="player">
+      
+      <label class="player-name">Player: <span id="player-points" class="points"></span>
+      </label>
+      <p id="playerscore">0</p>
+      <div id="player-hand" class="hand">
+        <!-- Player Hand -->
+        <!-- <img src="images/queen_of_hearts.png" alt="">
+        <img src="images/2_of_clubs.png" alt=""> -->
+      </div>
+    </div>
+    <div class="buttons">
+      <button id="deal-button" type="button">Deal</button>
+      <button id="hit-button" type="button">Hit</button>
+      <button id="stand-button" type="button">Stand</button>
+    </div>
+    <div class="bet-buttons buttons">
+      <button id="1" type="button">Bet 1</button>
+      <button id="5" type="button">Bet 5</button>
+      <button id="10" type="button">Bet 10</button>
+      <button id="20" type="button">Bet 20</button>
+      <button id="50" type="button">Bet 50</button>
+      <button id="100" type="button">Bet 100</button>
+     
+
+    </div>
+  </div>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
